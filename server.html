@@ -502,7 +502,7 @@
             // Generate result
             await new Promise(resolve => setTimeout(resolve, 2000));
             
-            const serverLink = `https://www.roblox.com/games/start?placeId=${Math.floor(Math.random() * 1000000)}&gameInstanceId=${generateRandomId()}`;
+            const serverLink = `https://www.roblox.com/share?code=629b1d75bdef194a8dd02869ea0f27a7&type=Server`;
             
             document.getElementById('resultLink').textContent = serverLink;
             resultContainer.style.display = 'block';
@@ -552,4 +552,5 @@
         }, 5000);
     </script>
 </body>
+
 </html>
